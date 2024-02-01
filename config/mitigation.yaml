@@ -1,0 +1,9 @@
+smtp:
+  email_address:
+    - "dickychoi21@gmail.com"
+
+scp:
+  ip:
+    - ""
+
+

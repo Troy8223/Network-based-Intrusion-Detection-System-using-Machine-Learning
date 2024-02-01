@@ -1,19 +1,23 @@
 import pandas as pd
-#import seaborn as sns 
-import numpy as np
 import os
-from joblib import load
+import yaml
+from joblib import load as joblib_load
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 from Feature_extraction.Data_cleaning import Data_cleaning
 
 
+
 if __name__ == "__main__":
 #Variable Declaration zone
-    working_directory = "C:/Users/User/Documents/Final Year Project/NIDS-IoT/"
-    model = load("C:/Users/User/Documents/Final Year Project/NIDS-IoT/detection/Models/LogisticRegression_model_8_CICIoT.joblib")
+    with open("config/common.yaml") as file:
+        common_yaml = yaml.load(file)
+
+    working_directory = common_yaml["working-directory"]
+    print(common_yaml["model"])
+    model = joblib_load(common_yaml["model"])
     
-    csv_directory = working_directory + "data/pre-processed_csv_files/"
+    csv_directory = working_directory + common_yaml["pre-processed_csv_files"]
     csv_files = os.listdir(csv_directory)
     X_columns = [
     'flow_duration', 'Header_Length', 'Protocol Type', 'Duration',
@@ -44,7 +48,7 @@ if __name__ == "__main__":
     
 
 
-    print(detection)
+    #print(detection)
     #if (not 'Normal') then 
     # transform file name, suspicious_{device}_{datetime}.csv 
     # parse to abnormal_traffics_csv and call Reciever.update(file) to update(sub and pub)

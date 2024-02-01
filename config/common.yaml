@@ -1,0 +1,10 @@
+working-directory: "D:/NIDS-IoT/Network-based-Intrusion-Detection-System-using-Machine-Learning/"
+model: "D:/NIDS-IoT/Network-based-Intrusion-Detection-System-using-Machine-Learning/detection/Models/LogisticRegression_model_8_CICIoT.joblib"
+abnormal_traffics_csv: "data/abnormal_traffics_csv/"
+pre-processed_csv_files: "data/pre-processed_csv_files/"
+raw_pcap: "data/raw_pcap/"
+ 
+
+log_file: "D:/NIDS-IoT/Network-based-Intrusion-Detection-System-using-Machine-Learning/log"
+ 
+
