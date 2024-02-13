@@ -4,21 +4,24 @@ import yaml
 from joblib import load as joblib_load
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
-from Feature_extraction.Data_cleaning import Data_cleaning
+from Feature_extraction_Module.Data_cleaning import Data_cleaning
 
 
 
 if __name__ == "__main__":
 #Variable Declaration zone
+    #File related
     with open("config/common.yaml") as file:
-        common_yaml = yaml.load(file)
+        common_yaml = yaml.load(file, Loader= yaml.FullLoader)
 
     working_directory = common_yaml["working-directory"]
     print(common_yaml["model"])
     model = joblib_load(common_yaml["model"])
-    
     csv_directory = working_directory + common_yaml["pre-processed_csv_files"]
-    csv_files = os.listdir(csv_directory)
+    raw_pcap_directory = working_directory + common_yaml["raw_pcap"]
+    
+    #AI Model related
+    scaler = StandardScaler()
     X_columns = [
     'flow_duration', 'Header_Length', 'Protocol Type', 'Duration',
        'Rate', 'Srate', 'Drate', 'fin_flag_number', 'syn_flag_number',
@@ -32,25 +35,36 @@ if __name__ == "__main__":
 ]
     y_column = 'label'
     
-#Pre-process raw_pcap to pre-processed_csv_files
 
+#Pre-process raw_pcap to pre-processed_csv_files
+    cleaner  = Data_cleaning(working_directory)
+    cleaner.clean()
     #call clean_data module to output desired csv
 
 #detection logic
-    
+    for csv_file in os.listdir(csv_directory):
+        #load csv from pre-processed_csv_files and predict
+        scaler.fit(pd.read_csv(csv_directory + csv_file)[X_columns])
+        data = pd.read_csv(csv_directory + csv_file)
+        data[X_columns] = scaler.transform(data[X_columns])
+        detection_results = pd.DataFrame(model.predict(data[X_columns]))
+        
+        #Combine result with original data
+        data.insert(0,column="Result",value=detection_results)
 
-    #load csv from pre-processed_csv_files and predict
-    scaler = StandardScaler()
-    scaler.fit(pd.read_csv(csv_directory + csv_files[0])[X_columns])
-    data = pd.read_csv(csv_directory + csv_files[0])
-    data[X_columns] = scaler.transform(data[X_columns])
-    detection = list(model.predict(data[X_columns]))
-    
-
-
-    #print(detection)
+        #Drop all Benign result
+        data.drop(data[data.Result == "Benign"].index, inplace=True)
+        
+        # transform file name, suspicious_{device}_{datetime}.csv
+        filename_attr = csv_file.split('.')[-2].split('_')         #output: ['device', '202402102330']
+        filename = "suspicious_{}_{}.csv".format(filename_attr[0],filename_attr[1])
+        
+        data.to_csv(working_directory + common_yaml["abnormal_traffics_csv"] + filename, index=False)
+        
+    #print(detection_results)
+    #print(data)
     #if (not 'Normal') then 
-    # transform file name, suspicious_{device}_{datetime}.csv 
+    # transform file name, suspicious_{device}_{datetime}.csv
     # parse to abnormal_traffics_csv and call Reciever.update(file) to update(sub and pub)
-
+    
     
