@@ -1,0 +1,12 @@
+<html>
+<body>
+To whom it may concern,<br><br>
+    
+    Device {device} recorded potential malicious activity during the period {start} to {end}. 
+    <br>The summary of the activity are as follow,
+        <section>{results}</section>
+
+    <br><br>Please proceed to perform system health check and report to other third-party. 
+
+</body>
+</html>
