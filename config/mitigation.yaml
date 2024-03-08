@@ -1,9 +1,64 @@
-smtp:
-  email_address:
-    - "dickychoi21@gmail.com"
+mitigator_log_file: "log/mitigator.log"
+email_template: "smtp_template.txt"
 
-scp:
-  ip:
-    - ""
+connection_setting:
+  default_smtp:
+    smtp_server: "smtp.gmail.com"
+    port: 465
+    sender_email: "dickychoi21@gmail.com"
+    application_token: "vosw ouvj kkwy jzpz"
+    
+    client_email_address:
+      - "ccting6-c@my.cityu.edu.hk"
+
+  default_scp:
+    target_ip:
+      - ""
+    store_file_path: "/tmp/"
+
+  default_http:
+    url:
+      - "127.0.0.1:8888"
 
 
+devices_setting:
+  device-a:
+    ip_address: "192.168.224.128"
+    username: "kali"
+    password: "kali"
+
+    http:
+      url:
+        - "127.0.0.1:8888"
+    smtp: 
+      client_email_address:
+        - "ccting6-c@my.cityu.edu.hk"
+    scp:
+      target_1:
+         ip: "192.168.224.128"
+         username: "kali"
+         password: "kali"
+      target_2:
+         ip: "192.168.224.128"
+         username: "kali"
+         password: "kali"
+  device-b:
+    ip_address: "192.168.224.128"
+    username: "kali"
+    password: "kali"
+
+    http:
+      url:
+        - "127.0.0.1:8888"
+    smtp:
+      client_email_address:
+        - "ccting6-c@my.cityu.edu.hk"
+    scp:
+      target_1:
+         ip: "192.168.224.128"
+         username: "kali"
+         password: "kali"
+      target_2:
+         ip: "192.168.224.128"
+         username: "kali"
+         password: "kali"
