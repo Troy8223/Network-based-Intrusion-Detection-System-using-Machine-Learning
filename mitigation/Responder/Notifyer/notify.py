@@ -76,14 +76,14 @@ class notify:
             targets = config.keys()
             for target in targets:
                 profile = config[target]
-                print(target)
+                #print(target)
                 dst = profile["ip"]
                 store_file_path = self.scp_config["store_file_path"]
                 ssh.connect(dst, username=profile["username"], password=profile["password"])
                 scp = SCPClient(ssh.get_transport())
                 
                 scp.put(file, recursive=True, remote_path=store_file_path)
-                self.logger.info(f"SCP File putting {file.split('/')[-1]} Success.")
+                self.logger.info(f"SCP File putting {file.split('/')[-1]} Success to {dst} at {store_file_path}.")
                 scp.close()
         except:
             self.logger.error("SCP Connection Failed.", exc_info=True)

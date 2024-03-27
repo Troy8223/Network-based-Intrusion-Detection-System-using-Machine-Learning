@@ -54,8 +54,12 @@ if __name__ == "__main__":
     mitigator_log_handler.setFormatter(formatter)
     logger = logging.getLogger('mitigator')
     logger.addHandler(mitigator_log_handler)
+    
     notify_logger = logging.getLogger('Notify')
     notify_logger.addHandler(mitigator_log_handler)
+    
+    threat_handler_logger = logging.getLogger('Threat_Handler')
+    threat_handler_logger.addHandler(mitigator_log_handler)
     
     #Mitigation 
     logger.info("Starting mitigator")
@@ -106,13 +110,13 @@ if __name__ == "__main__":
                     try:
                         match method:
                             case "http":
-                                #notifyer.http_notify(notify_profile[method], send_msg)
+                                notifyer.http_notify(notify_profile[method], send_msg)
                                 pass
                             case "smtp":
-                                #notifyer.smtp_notify(notify_profile[method], send_msg)
+                                notifyer.smtp_notify(notify_profile[method], send_msg)
                                 pass
                             case "scp":
-                                #notifyer.scp_notify(notify_profile[method], adnormal_traffics_csv + file)
+                                notifyer.scp_notify(notify_profile[method], adnormal_traffics_csv + file)
                                 pass
                     except:
                         logger.error(f"{method.upper} Notify Failed for {device_name}", exc_info=True)
@@ -123,15 +127,16 @@ if __name__ == "__main__":
             #Mitigate
             for attack_type, cnt in simple_summary.items():
                 if attack_type == "DDoS" or attack_type == "DoS": 
-                    mitigator = mitigate()
-                    mitigator.block_ip(devices_setting[device_name], [])
+                    logger.info(f"Mitigating {attack_type} attack.") 
+                    mitigator = mitigate(threat_handler_logger)
+                    try:
+                        mitigator.block_ip(devices_setting[device_name], [])
+                        
+                    except:
+                        logger.error(f"Mitigation failed for {attack_type} attack.", exc_info=True)
             
-            
-            
-            
-        #Notify and Action by setting
 
-            
+    
     else:
         logger.info("No adnormal traffics at the moment.")
     

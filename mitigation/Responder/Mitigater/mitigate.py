@@ -1,8 +1,8 @@
 import paramiko
 
 class mitigate():
-    def __init__(self) -> None:
-        pass
+    def __init__(self, logger) -> None:
+        self.logger = logger
     
     def block_ip(self, config, ip_list):
         hostname = config["ip_address"]
@@ -11,22 +11,28 @@ class mitigate():
         password = config["password"]
 
         # IP address to block
-        ip_to_block = '192.168.1.100'
+        #ip_to_block = ip_list
+        ip_to_block = ['192.168.1.129']
 
         # SSH client
         ssh_client = paramiko.SSHClient()
         ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-
+        
         # Connect to the firewall
         ssh_client.connect(hostname, port, username, password)
         
-        #implement IP list
-        # Execute command to block the IP address
-        command = f'echo "kali" | sudo -S iptables -A INPUT -s {ip_to_block} -j DROP'
-        command = 'echo "kali" |sudo iptables -L'
-        stdin, stdout, stderr = ssh_client.exec_command(command)
-        print(stdout.read())
-        # Close the SSH connection
+        
+        for ip in ip_to_block:
+            try:
+                self.logger.info(f"Blocking IP address {ip}")
+                #implement IP list
+                command = f'echo "kali" | sudo -S iptables -A INPUT -s {ip} -j DROP'
+                #command = 'echo "kali" |sudo iptables -L'
+                stdin, stdout, stderr = ssh_client.exec_command(command)
+            except:
+                self.logger.error(f"Failed to block IP address {ip}", exc_info=True)
+                pass
+                
         ssh_client.close()
     
     
