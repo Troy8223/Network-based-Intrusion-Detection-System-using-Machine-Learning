@@ -1,0 +1,349 @@
+2024-02-13 16:11:28 | cleaner | INFO | Start Data Cleaning
+2024-02-13 16:19:22 | cleaner | INFO | Start Data Cleaning
+2024-02-13 16:19:22 | cleaner | INFO | Splitting the .pcap file
+2024-02-13 16:19:22 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-02-13 16:19:22 | cleaner | INFO | Removing (sub) .pcap files.
+2024-02-13 16:19:22 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-02-13 16:19:22 | cleaner | INFO | Removing (sub) .csv files
+2024-02-13 16:19:22 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(0.03s),  total_errors= 0
+2024-02-13 16:19:22 | cleaner | INFO | Splitting the .pcap file
+2024-02-13 16:19:22 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-02-13 16:19:22 | cleaner | INFO | Removing (sub) .pcap files.
+2024-02-13 16:19:22 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-02-13 16:19:22 | cleaner | INFO | Removing (sub) .csv files
+2024-02-13 16:19:22 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.02s),  total_errors= 0
+2024-02-13 16:19:22 | cleaner | INFO | Elapsed Time = 0.048885345458984375s
+2024-02-13 16:23:36 | cleaner | INFO | Start Data Cleaning
+2024-02-13 16:23:36 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-02-13 16:23:36 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-02-13 16:23:36 | cleaner | INFO | Removing (sub) .pcap files.
+2024-02-13 16:23:36 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-02-13 16:23:36 | cleaner | INFO | Removing (sub) .csv files
+2024-02-13 16:23:36 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(0.03s),  total_errors= 0
+2024-02-13 16:23:36 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-02-13 16:23:36 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-02-13 16:23:36 | cleaner | INFO | Removing (sub) .pcap files.
+2024-02-13 16:23:36 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-02-13 16:23:36 | cleaner | INFO | Removing (sub) .csv files
+2024-02-13 16:23:36 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.03s),  total_errors= 0
+2024-02-13 16:23:36 | cleaner | INFO | Elapsed Time = 0.05938839912414551s
+2024-02-13 16:47:57 | cleaner | INFO | Start Data Cleaning
+2024-02-13 16:47:57 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-02-13 16:47:58 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-02-13 16:47:58 | cleaner | INFO | Removing (sub) .pcap files.
+2024-02-13 16:47:58 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-02-13 16:47:58 | cleaner | INFO | Removing (sub) .csv files
+2024-02-13 16:47:58 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(0.03s),  total_errors= 0
+2024-02-13 16:47:58 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-02-13 16:47:58 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-02-13 16:47:58 | cleaner | INFO | Removing (sub) .pcap files.
+2024-02-13 16:47:58 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-02-13 16:47:58 | cleaner | INFO | Removing (sub) .csv files
+2024-02-13 16:47:58 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.02s),  total_errors= 0
+2024-02-13 16:47:58 | cleaner | INFO | Elapsed Time = 0.04818320274353027s
+2024-02-13 16:48:43 | cleaner | INFO | Start Data Cleaning
+2024-02-13 16:48:43 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-02-13 16:48:43 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-02-13 16:48:43 | cleaner | INFO | Removing (sub) .pcap files.
+2024-02-13 16:48:43 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-02-13 16:48:43 | cleaner | INFO | Removing (sub) .csv files
+2024-02-13 16:48:43 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(0.02s),  total_errors= 0
+2024-02-13 16:48:43 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-02-13 16:48:43 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-02-13 16:48:43 | cleaner | INFO | Removing (sub) .pcap files.
+2024-02-13 16:48:43 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-02-13 16:48:43 | cleaner | INFO | Removing (sub) .csv files
+2024-02-13 16:48:43 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.03s),  total_errors= 0
+2024-02-13 16:48:43 | cleaner | INFO | Elapsed Time = 0.052664756774902344s
+2024-02-13 16:49:43 | cleaner | INFO | Start Data Cleaning
+2024-02-13 16:49:43 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-02-13 16:49:43 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-02-13 16:49:43 | cleaner | INFO | Removing (sub) .pcap files.
+2024-02-13 16:49:43 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-02-13 16:49:43 | cleaner | INFO | Removing (sub) .csv files
+2024-02-13 16:49:43 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(0.03s),  total_errors= 0
+2024-02-13 16:49:43 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-02-13 16:49:43 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-02-13 16:49:43 | cleaner | INFO | Removing (sub) .pcap files.
+2024-02-13 16:49:43 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-02-13 16:49:43 | cleaner | INFO | Removing (sub) .csv files
+2024-02-13 16:49:43 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.03s),  total_errors= 0
+2024-02-13 16:49:43 | cleaner | INFO | Elapsed Time = 0.05463433265686035s
+2024-03-26 14:52:43 | cleaner | INFO | Start Data Cleaning
+2024-03-26 14:52:43 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 14:52:43 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 14:52:43 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 14:52:43 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 14:52:43 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 14:52:43 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(0.03s),  total_errors= 0
+2024-03-26 14:52:43 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-26 14:52:43 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 14:52:43 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 14:52:43 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 14:52:43 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 14:52:43 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.02s),  total_errors= 0
+2024-03-26 14:52:43 | cleaner | INFO | Elapsed Time = 0.056685686111450195s
+2024-03-26 17:19:22 | cleaner | INFO | Start Data Cleaning
+2024-03-26 17:19:22 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 17:19:22 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:19:22 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:19:22 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:19:22 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:19:22 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(0.03s),  total_errors= 0
+2024-03-26 17:19:22 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-26 17:19:22 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:19:22 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:19:22 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:19:22 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:19:22 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.03s),  total_errors= 0
+2024-03-26 17:19:22 | cleaner | INFO | Elapsed Time = 0.05890512466430664s
+2024-03-26 17:46:02 | cleaner | INFO | Start Data Cleaning
+2024-03-26 17:46:02 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 17:46:02 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:46:02 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:46:02 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:46:02 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:46:02 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(0.03s),  total_errors= 0
+2024-03-26 17:46:02 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-26 17:46:02 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:46:02 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:46:02 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:46:02 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:46:02 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.03s),  total_errors= 0
+2024-03-26 17:46:02 | cleaner | INFO | Elapsed Time = 0.06562662124633789s
+2024-03-26 17:49:13 | cleaner | INFO | Start Data Cleaning
+2024-03-26 17:49:13 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 17:49:13 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:49:13 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:49:13 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:49:13 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:49:13 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(0.03s),  total_errors= 0
+2024-03-26 17:49:13 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-26 17:49:14 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:49:14 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:49:14 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:49:14 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:49:14 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.03s),  total_errors= 0
+2024-03-26 17:49:14 | cleaner | INFO | Elapsed Time = 0.0617215633392334s
+2024-03-26 17:50:50 | cleaner | INFO | Start Data Cleaning
+2024-03-26 17:50:50 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 17:50:50 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:50:50 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:50:50 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:50:50 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:50:50 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(0.03s),  total_errors= 0
+2024-03-26 17:50:50 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-26 17:50:50 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:50:50 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:50:50 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:50:50 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:50:50 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.04s),  total_errors= 0
+2024-03-26 17:50:50 | cleaner | INFO | Elapsed Time = 0.06696867942810059s
+2024-03-26 17:51:10 | cleaner | INFO | Start Data Cleaning
+2024-03-26 17:51:10 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 17:51:10 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:51:10 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:51:10 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:51:10 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:51:10 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(0.06s),  total_errors= 0
+2024-03-26 17:51:10 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-26 17:51:10 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:51:10 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:51:10 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:51:10 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:51:10 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.04s),  total_errors= 0
+2024-03-26 17:51:10 | cleaner | INFO | Elapsed Time = 0.10392379760742188s
+2024-03-26 17:51:35 | cleaner | INFO | Start Data Cleaning
+2024-03-26 17:51:35 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 17:51:35 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:51:35 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:51:35 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:51:35 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:51:35 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(0.03s),  total_errors= 0
+2024-03-26 17:51:35 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-26 17:51:35 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:51:35 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:51:35 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:51:35 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:51:35 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.03s),  total_errors= 0
+2024-03-26 17:51:35 | cleaner | INFO | Elapsed Time = 0.06873798370361328s
+2024-03-26 17:52:38 | cleaner | INFO | Start Data Cleaning
+2024-03-26 17:52:38 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 17:52:38 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:52:51 | cleaner | INFO | Start Data Cleaning
+2024-03-26 17:52:51 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 17:52:51 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:52:51 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:52:51 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:52:51 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:52:51 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(0.04s),  total_errors= 0
+2024-03-26 17:52:51 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-26 17:52:51 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:52:51 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:52:51 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:52:51 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:52:51 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.04s),  total_errors= 0
+2024-03-26 17:52:51 | cleaner | INFO | Elapsed Time = 0.07975006103515625s
+2024-03-26 17:54:03 | cleaner | INFO | Start Data Cleaning
+2024-03-26 17:54:03 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 17:54:03 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:54:03 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:54:03 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:54:03 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:54:03 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(0.03s),  total_errors= 0
+2024-03-26 17:54:03 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-26 17:54:03 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:54:03 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:54:03 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:54:03 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:54:03 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.03s),  total_errors= 0
+2024-03-26 17:54:03 | cleaner | INFO | Elapsed Time = 0.060553789138793945s
+2024-03-26 17:55:36 | cleaner | INFO | Start Data Cleaning
+2024-03-26 17:55:36 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 17:55:37 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:55:39 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:55:39 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:55:39 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:57:31 | cleaner | INFO | Start Data Cleaning
+2024-03-26 17:57:31 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 17:57:31 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:57:31 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:57:31 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:57:31 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:57:31 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330)(0.05s),  total_errors= 0
+2024-03-26 17:57:31 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-26 17:57:31 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:57:31 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:57:31 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:57:31 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:57:31 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.03s),  total_errors= 0
+2024-03-26 17:57:31 | cleaner | INFO | Elapsed Time = 0.07723474502563477s
+2024-03-26 17:58:45 | cleaner | INFO | Start Data Cleaning
+2024-03-26 17:58:45 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 17:58:45 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:58:45 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:58:45 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:58:45 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:58:45 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(0.02s),  total_errors= 0
+2024-03-26 17:58:45 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-26 17:58:45 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:58:45 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:58:45 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:58:45 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:58:45 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.03s),  total_errors= 0
+2024-03-26 17:58:45 | cleaner | INFO | Elapsed Time = 0.056742191314697266s
+2024-03-26 17:59:03 | cleaner | INFO | Start Data Cleaning
+2024-03-26 17:59:03 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 17:59:03 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:59:06 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:59:06 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:59:06 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:59:06 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330)(2.56s),  total_errors= 0
+2024-03-26 17:59:06 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-26 17:59:06 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 17:59:06 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 17:59:06 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 17:59:06 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 17:59:06 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340)(0.06s),  total_errors= 0
+2024-03-26 17:59:06 | cleaner | INFO | Elapsed Time = 2.6266722679138184s
+2024-03-26 18:25:05 | cleaner | INFO | Start Data Cleaning
+2024-03-26 18:25:05 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 18:25:05 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 18:26:02 | cleaner | INFO | Start Data Cleaning
+2024-03-26 18:26:02 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 18:26:02 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 18:26:04 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 18:26:04 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 18:26:04 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 18:26:04 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330)(2.32s),  total_errors= 0
+2024-03-26 18:26:04 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-26 18:26:04 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 18:26:04 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 18:26:04 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 18:26:04 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 18:26:04 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340)(0.04s),  total_errors= 0
+2024-03-26 18:26:04 | cleaner | INFO | Elapsed Time = 2.355759620666504s
+2024-03-26 18:26:26 | cleaner | INFO | Start Data Cleaning
+2024-03-26 18:26:26 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 18:26:26 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 18:26:26 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 18:26:26 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 18:26:26 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 18:26:26 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330)(0.03s),  total_errors= 0
+2024-03-26 18:26:26 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-26 18:26:26 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 18:26:26 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 18:26:26 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 18:26:26 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 18:26:26 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340)(0.04s),  total_errors= 0
+2024-03-26 18:26:26 | cleaner | INFO | Elapsed Time = 0.07762384414672852s
+2024-03-26 18:27:20 | cleaner | INFO | Start Data Cleaning
+2024-03-26 18:27:20 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 18:27:20 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 18:27:20 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 18:27:20 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 18:27:20 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 18:27:20 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(0.04s),  total_errors= 0
+2024-03-26 18:27:20 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-26 18:27:20 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 18:27:20 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 18:27:20 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 18:27:20 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 18:27:20 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.03s),  total_errors= 0
+2024-03-26 18:27:20 | cleaner | INFO | Elapsed Time = 0.06922245025634766s
+2024-03-26 18:32:51 | cleaner | INFO | Start Data Cleaning
+2024-03-26 18:32:51 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 18:32:51 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 18:32:51 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 18:32:51 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 18:32:51 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 18:32:51 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(0.03s),  total_errors= 0
+2024-03-26 18:32:51 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-26 18:32:51 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 18:32:51 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 18:32:51 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 18:32:51 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 18:32:51 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.03s),  total_errors= 0
+2024-03-26 18:32:51 | cleaner | INFO | Elapsed Time = 0.06311631202697754s
+2024-03-26 18:34:12 | cleaner | INFO | Start Data Cleaning
+2024-03-26 18:34:12 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 18:34:12 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 18:34:14 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 18:34:14 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 18:34:14 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 18:34:14 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330)(2.28s),  total_errors= 0
+2024-03-26 18:34:14 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-26 18:34:14 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 18:34:16 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 18:34:16 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 18:34:16 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 18:34:16 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(2.28s),  total_errors= 0
+2024-03-26 18:34:16 | cleaner | INFO | Elapsed Time = 4.564434766769409s
+2024-03-26 18:36:17 | cleaner | INFO | Start Data Cleaning
+2024-03-26 18:36:17 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 18:36:17 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 18:36:19 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 18:36:19 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 18:36:19 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 18:36:19 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330)(2.35s),  total_errors= 0
+2024-03-26 18:36:19 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-26 18:36:19 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 18:36:22 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 18:36:22 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 18:36:22 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 18:36:22 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340)(2.53s),  total_errors= 0
+2024-03-26 18:36:22 | cleaner | INFO | Elapsed Time = 4.885064601898193s
+2024-03-26 18:37:29 | cleaner | INFO | Start Data Cleaning
+2024-03-26 18:37:29 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-26 18:37:29 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 18:37:32 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 18:37:32 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 18:37:32 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 18:37:32 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330)(2.31s),  total_errors= 0
+2024-03-26 18:37:32 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-26 18:37:32 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-26 18:37:34 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-26 18:37:34 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-26 18:37:34 | cleaner | INFO | Removing (sub) .csv files
+2024-03-26 18:37:34 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340)(2.74s),  total_errors= 0
+2024-03-26 18:37:34 | cleaner | INFO | Elapsed Time = 5.0497353076934814s
