@@ -23,6 +23,7 @@ class Data_cleaning():
         self.destination_directory = self.address + common_yaml["pre-processed_csv_files"] 
         self.pcap_files = os.listdir(self.raw_pcap_directory)
         self.logger = logger
+        self.TIMEOUT = 60
         
     def pub():
         pass
@@ -75,7 +76,10 @@ class Data_cleaning():
                     p.start()
                     processes.append(p)
                 for p in processes:
-                    p.join()
+                    p.join(self.TIMEOUT)
+                    if p.is_alive():
+                        self.logger.warning(f"Process {p.pid} is still running. Terminating it.")
+                        p.terminate()
             
             #assert len(subfiles)==len(os.listdir(destination_directory))
             self.logger.info("Removing (sub) .pcap files.")
