@@ -7,11 +7,11 @@ connection_setting:
   default_smtp:
     smtp_server: "smtp.gmail.com"
     port: 465
-    sender_email: "dickychoi21@gmail.com"
-    application_token: "vosw ouvj kkwy jzpz"
+    sender_email: ""
+    application_token: ""
     
     client_email_address:
-      - "ccting6-c@my.cityu.edu.hk"
+      - ""
 
   default_scp:
     target_ip:
