@@ -347,3 +347,480 @@
 2024-03-26 18:37:34 | cleaner | INFO | Removing (sub) .csv files
 2024-03-26 18:37:34 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340)(2.74s),  total_errors= 0
 2024-03-26 18:37:34 | cleaner | INFO | Elapsed Time = 5.0497353076934814s
+2024-03-29 11:28:29 | cleaner | INFO | Start Data Cleaning
+2024-03-29 11:28:29 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-29 11:28:29 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 11:28:32 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 11:28:32 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 11:28:32 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 11:28:32 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(2.91s),  total_errors= 0
+2024-03-29 11:28:32 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-29 11:28:32 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 11:28:32 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 11:28:32 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 11:28:32 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 11:28:32 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.03s),  total_errors= 0
+2024-03-29 11:28:32 | cleaner | INFO | Elapsed Time = 2.937819719314575s
+2024-03-29 11:49:47 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-29 11:51:02 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-29 11:51:11 | cleaner | INFO | Start Data Cleaning
+2024-03-29 11:51:11 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-29 11:51:11 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 11:51:11 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 11:51:11 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 11:51:11 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 11:51:11 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(0.04s),  total_errors= 0
+2024-03-29 11:51:11 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-29 11:51:11 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 11:51:11 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 11:51:11 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 11:51:11 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 11:51:11 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.04s),  total_errors= 0
+2024-03-29 11:51:11 | cleaner | INFO | Splitting the .pcap file: IoT-device_20240328133918.pcap
+2024-03-29 11:51:11 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 11:51:11 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 11:51:11 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 11:51:11 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 11:51:11 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-device_20240328133918.pcap)(0.04s),  total_errors= 0
+2024-03-29 11:51:11 | cleaner | INFO | Elapsed Time = 0.1198873519897461s
+2024-03-29 11:52:29 | cleaner | INFO | Start Data Cleaning
+2024-03-29 11:52:29 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-29 11:52:29 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 11:52:29 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 11:52:29 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 11:52:29 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 11:52:29 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102330.pcap)(0.03s),  total_errors= 0
+2024-03-29 11:52:29 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-29 11:52:29 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 11:52:29 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 11:52:29 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 11:52:29 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 11:52:29 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/device_202402102340.pcap)(0.03s),  total_errors= 0
+2024-03-29 11:52:29 | cleaner | INFO | Splitting the .pcap file: IoT-device_20240328133918.pcap
+2024-03-29 11:52:29 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 11:52:29 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 11:52:29 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 11:52:29 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 11:52:29 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-device_20240328133918.pcap)(0.03s),  total_errors= 0
+2024-03-29 11:52:29 | cleaner | INFO | Elapsed Time = 0.08684945106506348s
+2024-03-29 11:56:28 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-29 11:57:10 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-29 11:57:22 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-29 11:57:22 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 11:57:22 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-29 11:57:22 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 11:57:22 | cleaner | INFO | Splitting the .pcap file: IoT-device_20240328133918.pcap
+2024-03-29 11:57:22 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 12:05:28 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-29 12:06:09 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-29 12:06:19 | cleaner | INFO | Splitting the .pcap file: device_202402102330.pcap
+2024-03-29 12:06:19 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 12:27:39 | cleaner | INFO | Splitting the .pcap file: device_202402102340.pcap
+2024-03-29 12:27:39 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 12:57:26 | cleaner | INFO | Splitting the .pcap file: IoT-device_20240328133918.pcap
+2024-03-29 12:57:26 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 14:02:37 | cleaner | INFO | Splitting the .pcap file: backup
+2024-03-29 14:02:37 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 14:02:37 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-29 14:02:37 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 14:03:40 | cleaner | INFO | Start Data Cleaning
+2024-03-29 14:03:40 | cleaner | INFO | Splitting the .pcap file: backup
+2024-03-29 14:03:40 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 14:03:40 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 14:03:40 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 14:03:40 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 14:03:40 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/backup)(0.03s),  total_errors= 0
+2024-03-29 14:03:40 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-29 14:03:40 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 14:03:40 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 14:03:40 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 14:03:40 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 14:03:40 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918.pcap)(0.02s),  total_errors= 0
+2024-03-29 14:03:40 | cleaner | INFO | Elapsed Time = 0.05170798301696777s
+2024-03-29 14:05:50 | cleaner | INFO | Start Data Cleaning
+2024-03-29 14:05:50 | cleaner | INFO | Splitting the .pcap file: backup
+2024-03-29 14:05:50 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 14:05:50 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 14:05:50 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 14:05:50 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 14:05:50 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/backup)(0.02s),  total_errors= 0
+2024-03-29 14:05:50 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-29 14:05:50 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 14:05:50 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 14:05:50 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 14:05:50 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 14:05:50 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918.pcap)(0.03s),  total_errors= 0
+2024-03-29 14:05:50 | cleaner | INFO | Elapsed Time = 0.04955267906188965s
+2024-03-29 14:12:20 | cleaner | INFO | Start Data Cleaning
+2024-03-29 14:12:20 | cleaner | INFO | Splitting the .pcap file: backup
+2024-03-29 14:12:20 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 14:12:20 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 14:12:20 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 14:12:20 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 14:12:20 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/backup)(0.05s),  total_errors= 0
+2024-03-29 14:12:20 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-29 14:12:20 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 14:12:22 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 14:12:22 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 14:12:22 | cleaner | INFO | Error occured when merging sub csv file.
+Traceback (most recent call last):
+  File "c:\Users\User\Documents\GitHub\Network-based-Intrusion-Detection-System-using-Machine-Learning\detection\Feature_extraction_Module\Data_cleaning.py", line 104, in clean
+    d = pd.read_csv(split_directory + f)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1679, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas\_libs\parsers.pyx", line 550, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 639, in pandas._libs.parsers.TextReader._get_header
+  File "pandas\_libs\parsers.pyx", line 850, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas\_libs\parsers.pyx", line 861, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "pandas\_libs\parsers.pyx", line 2021, in pandas._libs.parsers.raise_parser_error
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 0: invalid continuation byte
+2024-03-29 14:12:22 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 14:12:22 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918)(2.32s),  total_errors= 0
+2024-03-29 14:12:22 | cleaner | INFO | Elapsed Time = 2.3692467212677s
+2024-03-29 14:14:15 | cleaner | INFO | Start Data Cleaning
+2024-03-29 14:14:15 | cleaner | INFO | Splitting the .pcap file: backup
+2024-03-29 14:14:15 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 14:14:18 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 14:14:18 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 14:14:18 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 14:14:18 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/backup)(2.28s),  total_errors= 0
+2024-03-29 14:14:18 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-29 14:14:18 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 14:14:20 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 14:14:20 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 14:14:20 | cleaner | INFO | Error occured when merging sub csv file.
+Traceback (most recent call last):
+  File "c:\Users\User\Documents\GitHub\Network-based-Intrusion-Detection-System-using-Machine-Learning\detection\Feature_extraction_Module\Data_cleaning.py", line 104, in clean
+    d = pd.read_csv(split_directory + csv_file)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1679, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas\_libs\parsers.pyx", line 550, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 639, in pandas._libs.parsers.TextReader._get_header
+  File "pandas\_libs\parsers.pyx", line 850, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas\_libs\parsers.pyx", line 861, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "pandas\_libs\parsers.pyx", line 2021, in pandas._libs.parsers.raise_parser_error
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 0: invalid continuation byte
+2024-03-29 14:14:20 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 14:14:20 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918)(2.28s),  total_errors= 0
+2024-03-29 14:14:20 | cleaner | INFO | Elapsed Time = 4.555502653121948s
+2024-03-29 14:15:33 | cleaner | INFO | Start Data Cleaning
+2024-03-29 14:15:33 | cleaner | INFO | Splitting the .pcap file: backup
+2024-03-29 14:15:33 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 14:15:35 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 14:15:35 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 14:15:35 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 14:15:35 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/backup)(2.38s),  total_errors= 0
+2024-03-29 14:15:35 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-29 14:15:35 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 14:15:37 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 14:15:37 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 14:15:37 | cleaner | INFO | Error occured when merging sub csv file.
+Traceback (most recent call last):
+  File "c:\Users\User\Documents\GitHub\Network-based-Intrusion-Detection-System-using-Machine-Learning\detection\Feature_extraction_Module\Data_cleaning.py", line 105, in clean
+    d = pd.read_csv(split_directory + csv_file)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1679, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas\_libs\parsers.pyx", line 550, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 639, in pandas._libs.parsers.TextReader._get_header
+  File "pandas\_libs\parsers.pyx", line 850, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas\_libs\parsers.pyx", line 861, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "pandas\_libs\parsers.pyx", line 2021, in pandas._libs.parsers.raise_parser_error
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 0: invalid continuation byte
+2024-03-29 14:15:37 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 14:15:37 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918)(2.27s),  total_errors= 0
+2024-03-29 14:15:37 | cleaner | INFO | Elapsed Time = 4.643853664398193s
+2024-03-29 14:18:17 | cleaner | INFO | Start Data Cleaning
+2024-03-29 14:18:17 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-29 14:18:17 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 14:18:19 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 14:18:19 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 14:18:19 | cleaner | INFO | Error occured when merging sub csv file.
+Traceback (most recent call last):
+  File "c:\Users\User\Documents\GitHub\Network-based-Intrusion-Detection-System-using-Machine-Learning\detection\Feature_extraction_Module\Data_cleaning.py", line 105, in clean
+    d = pd.read_csv(split_directory + csv_file)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1679, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas\_libs\parsers.pyx", line 550, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 639, in pandas._libs.parsers.TextReader._get_header
+  File "pandas\_libs\parsers.pyx", line 850, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas\_libs\parsers.pyx", line 861, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "pandas\_libs\parsers.pyx", line 2021, in pandas._libs.parsers.raise_parser_error
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 0: invalid continuation byte
+2024-03-29 14:18:20 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 14:18:20 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918)(2.31s),  total_errors= 0
+2024-03-29 14:18:20 | cleaner | INFO | Elapsed Time = 2.3101658821105957s
+2024-03-29 14:18:55 | cleaner | INFO | Start Data Cleaning
+2024-03-29 14:18:55 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-29 14:18:55 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 14:18:57 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 14:18:57 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 14:18:57 | cleaner | INFO | Error occured when merging sub csv file.
+Traceback (most recent call last):
+  File "c:\Users\User\Documents\GitHub\Network-based-Intrusion-Detection-System-using-Machine-Learning\detection\Feature_extraction_Module\Data_cleaning.py", line 105, in clean
+    d = pd.read_csv(split_directory + csv_file)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1679, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas\_libs\parsers.pyx", line 550, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 639, in pandas._libs.parsers.TextReader._get_header
+  File "pandas\_libs\parsers.pyx", line 850, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas\_libs\parsers.pyx", line 861, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "pandas\_libs\parsers.pyx", line 2021, in pandas._libs.parsers.raise_parser_error
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 0: invalid continuation byte
+2024-03-29 14:18:57 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 14:18:57 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918)(2.37s),  total_errors= 0
+2024-03-29 14:18:57 | cleaner | INFO | Elapsed Time = 2.367192506790161s
+2024-03-29 14:19:16 | cleaner | INFO | Start Data Cleaning
+2024-03-29 14:19:16 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-29 14:19:16 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 14:19:21 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 14:19:21 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 14:19:21 | cleaner | ERROR | Error occured when merging sub csv file.
+Traceback (most recent call last):
+  File "c:\Users\User\Documents\GitHub\Network-based-Intrusion-Detection-System-using-Machine-Learning\detection\Feature_extraction_Module\Data_cleaning.py", line 105, in clean
+    d = pd.read_csv(split_directory + csv_file)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1679, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas\_libs\parsers.pyx", line 550, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 639, in pandas._libs.parsers.TextReader._get_header
+  File "pandas\_libs\parsers.pyx", line 850, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas\_libs\parsers.pyx", line 861, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "pandas\_libs\parsers.pyx", line 2021, in pandas._libs.parsers.raise_parser_error
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 0: invalid continuation byte
+2024-03-29 14:19:21 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 14:19:21 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918)(4.9s),  total_errors= 0
+2024-03-29 14:19:21 | cleaner | INFO | Elapsed Time = 4.901384115219116s
+2024-03-29 14:22:34 | cleaner | INFO | Start Data Cleaning
+2024-03-29 14:22:34 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-29 14:22:34 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 14:22:39 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 14:22:39 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 14:22:39 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 14:22:39 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918.pcap)(4.92s),  total_errors= 0
+2024-03-29 14:22:39 | cleaner | INFO | Elapsed Time = 4.920378923416138s
+2024-03-29 16:57:59 | cleaner | INFO | Start Data Cleaning
+2024-03-29 16:57:59 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-29 16:57:59 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-29 16:58:04 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-29 16:58:04 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-29 16:58:04 | cleaner | INFO | Removing (sub) .csv files
+2024-03-29 16:58:04 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918)(4.96s),  total_errors= 0
+2024-03-29 16:58:04 | cleaner | INFO | Elapsed Time = 4.962041854858398s
+2024-03-30 16:23:58 | cleaner | INFO | Start Data Cleaning
+2024-03-30 16:23:58 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-30 16:23:58 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-30 16:24:00 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-30 16:24:00 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-30 16:24:00 | cleaner | INFO | Removing (sub) .csv files
+2024-03-30 16:24:00 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918.pcap)(2.97s),  total_errors= 0
+2024-03-30 16:24:00 | cleaner | INFO | Elapsed Time = 2.9710710048675537s
+2024-03-30 16:24:20 | cleaner | INFO | Start Data Cleaning
+2024-03-30 16:24:20 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-30 16:24:20 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-30 16:24:25 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-30 16:24:25 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-30 16:24:25 | cleaner | INFO | Removing (sub) .csv files
+2024-03-30 16:24:25 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918.pcap)(4.79s),  total_errors= 0
+2024-03-30 16:24:25 | cleaner | INFO | Elapsed Time = 4.789375066757202s
+2024-03-30 16:28:33 | cleaner | INFO | Start Data Cleaning
+2024-03-30 16:28:33 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-30 16:28:33 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-30 16:28:38 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-30 16:28:38 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-30 16:28:38 | cleaner | INFO | Removing (sub) .csv files
+2024-03-30 16:28:38 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918.pcap)(5.45s),  total_errors= 0
+2024-03-30 16:28:38 | cleaner | INFO | Elapsed Time = 5.45226526260376s
+2024-03-30 16:30:59 | cleaner | INFO | Start Data Cleaning
+2024-03-30 16:30:59 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-30 16:31:00 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-30 16:31:04 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-30 16:31:04 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-30 16:31:04 | cleaner | INFO | Removing (sub) .csv files
+2024-03-30 16:31:04 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918)(4.97s),  total_errors= 0
+2024-03-30 16:31:04 | cleaner | INFO | Elapsed Time = 4.9666502475738525s
+2024-03-30 16:33:37 | cleaner | INFO | Start Data Cleaning
+2024-03-30 16:33:37 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-30 16:33:37 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-30 16:33:42 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-30 16:33:42 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-30 16:33:42 | cleaner | INFO | Removing (sub) .csv files
+2024-03-30 16:33:42 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918)(4.96s),  total_errors= 0
+2024-03-30 16:33:42 | cleaner | INFO | Elapsed Time = 4.963423252105713s
+2024-03-30 16:34:10 | cleaner | INFO | Start Data Cleaning
+2024-03-30 16:34:10 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-30 16:34:10 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-30 16:34:15 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-30 16:34:15 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-30 16:34:15 | cleaner | INFO | Removing (sub) .csv files
+2024-03-30 16:34:15 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918)(4.89s),  total_errors= 0
+2024-03-30 16:34:15 | cleaner | INFO | Elapsed Time = 4.890344619750977s
+2024-03-30 16:34:59 | cleaner | INFO | Start Data Cleaning
+2024-03-30 16:34:59 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-30 16:34:59 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-30 16:35:03 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-30 16:35:03 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-30 16:35:03 | cleaner | INFO | Removing (sub) .csv files
+2024-03-30 16:35:03 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918.pcap)(4.73s),  total_errors= 0
+2024-03-30 16:35:03 | cleaner | INFO | Elapsed Time = 4.72813081741333s
+2024-03-30 16:43:24 | cleaner | INFO | Start Data Cleaning
+2024-03-30 16:43:24 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-30 16:43:24 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-30 16:43:28 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-30 16:43:28 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-30 16:43:29 | cleaner | INFO | Removing (sub) .csv files
+2024-03-30 16:43:29 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918)(4.83s),  total_errors= 0
+2024-03-30 16:43:29 | cleaner | INFO | Elapsed Time = 4.832334280014038s
+2024-03-30 16:53:08 | cleaner | INFO | Start Data Cleaning
+2024-03-30 16:53:08 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-30 16:53:08 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-30 16:53:13 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-30 16:53:13 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-30 16:53:13 | cleaner | INFO | Removing (sub) .csv files
+2024-03-30 16:53:13 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918)(4.97s),  total_errors= 0
+2024-03-30 16:53:13 | cleaner | INFO | Elapsed Time = 4.972254753112793s
+2024-03-30 16:57:24 | cleaner | INFO | Start Data Cleaning
+2024-03-30 16:57:24 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-30 16:57:24 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-30 16:57:29 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-30 16:57:29 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-30 16:57:29 | cleaner | INFO | Removing (sub) .csv files
+2024-03-30 16:57:29 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918)(4.91s),  total_errors= 0
+2024-03-30 16:57:29 | cleaner | INFO | Elapsed Time = 4.909837961196899s
+2024-03-30 17:51:14 | cleaner | INFO | Start Data Cleaning
+2024-03-30 17:51:14 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-30 17:51:14 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-30 17:51:19 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-30 17:51:19 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-30 17:51:19 | cleaner | INFO | Removing (sub) .csv files
+2024-03-30 17:51:19 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918)(4.94s),  total_errors= 0
+2024-03-30 17:51:19 | cleaner | INFO | Elapsed Time = 4.93849778175354s
+2024-03-31 11:54:19 | cleaner | INFO | Start Data Cleaning
+2024-03-31 11:54:19 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-31 11:54:19 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-31 11:54:23 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-31 11:54:23 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-31 11:54:24 | cleaner | INFO | Removing (sub) .csv files
+2024-03-31 11:54:24 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918)(4.83s),  total_errors= 0
+2024-03-31 11:54:24 | cleaner | INFO | Elapsed Time = 4.831500768661499s
+2024-03-31 11:54:38 | cleaner | INFO | Start Data Cleaning
+2024-03-31 11:54:38 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-31 11:54:38 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-31 11:54:43 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-31 11:54:43 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-31 11:54:43 | cleaner | INFO | Removing (sub) .csv files
+2024-03-31 11:54:43 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918)(4.99s),  total_errors= 0
+2024-03-31 11:54:43 | cleaner | INFO | Elapsed Time = 4.988048791885376s
+2024-03-31 11:54:59 | cleaner | INFO | Start Data Cleaning
+2024-03-31 11:54:59 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-03-31 11:54:59 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-03-31 11:55:04 | cleaner | INFO | Removing (sub) .pcap files.
+2024-03-31 11:55:04 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-03-31 11:55:04 | cleaner | INFO | Removing (sub) .csv files
+2024-03-31 11:55:04 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918)(4.84s),  total_errors= 0
+2024-03-31 11:55:04 | cleaner | INFO | Elapsed Time = 4.844292402267456s
+2024-04-03 14:39:33 | cleaner | INFO | Start Data Cleaning
+2024-04-03 14:39:33 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-04-03 14:39:33 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-04-03 14:39:45 | cleaner | INFO | Removing (sub) .pcap files.
+2024-04-03 14:39:45 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-04-03 14:39:45 | cleaner | INFO | Removing (sub) .csv files
+2024-04-03 14:39:46 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918)(12.79s),  total_errors= 0
+2024-04-03 14:39:46 | cleaner | INFO | Elapsed Time = 12.826462984085083s
+2024-04-03 18:09:45 | cleaner | INFO | Start Data Cleaning
+2024-04-03 18:09:45 | cleaner | INFO | Splitting the .pcap file: IoT-device_20240403173037.pcap
+2024-04-03 18:09:50 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-04-03 18:10:50 | cleaner | WARNING | Process 53184 is still running. Terminating it.
+2024-04-03 18:10:51 | cleaner | INFO | Removing (sub) .pcap files.
+2024-04-03 18:10:51 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-04-03 18:11:03 | cleaner | INFO | Removing (sub) .csv files
+2024-04-03 18:11:03 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-device_20240403173037)(78.34s),  total_errors= 0
+2024-04-03 18:11:03 | cleaner | INFO | Splitting the .pcap file: IoT-Test_20240328133918.pcap
+2024-04-03 18:11:03 | cleaner | INFO | Converting (sub) .pcap files to .csv files
+2024-04-03 18:11:09 | cleaner | INFO | Removing (sub) .pcap files.
+2024-04-03 18:11:09 | cleaner | INFO | Merging (sub) .csv files to a summary csv
+2024-04-03 18:11:09 | cleaner | INFO | Removing (sub) .csv files
+2024-04-03 18:11:09 | cleaner | INFO | Cleaner job done. (C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/IoT-Test_20240328133918)(5.88s),  total_errors= 0
+2024-04-03 18:11:09 | cleaner | INFO | Elapsed Time = 84.21444773674011s

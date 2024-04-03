@@ -14,7 +14,6 @@ from Feature_extraction_Module.Supporting_functions import get_protocol_name, ge
     get_src_dst_packets, calculate_incoming_connections, \
     calculate_packets_counts_per_ips_proto, calculate_packets_count_per_ports_proto
     
-from tqdm import tqdm
 import time
 
 class Feature_extraction():
@@ -35,12 +34,12 @@ class Feature_extraction():
     ]
     """
     
-    def pcap_evaluation(self,pcap_file,csv_file_name, logger):
+    def pcap_evaluation(self,pcap_file,csv_file_name):
         global ethsize, src_ports, dst_ports, src_ips, dst_ips, ips , tcpflows, udpflows, src_packet_count, dst_packet_count, src_ip_byte, dst_ip_byte
         global protcols_count, tcp_flow_flgs, incoming_packets_src, incoming_packets_dst, packets_per_protocol, average_per_proto_src
         global average_per_proto_dst, average_per_proto_src_port, average_per_proto_dst_port
         columns = ["ts","flow_duration","Header_Length",
-                 
+                    "src_ip", "dst_ip", 
                   "Protocol Type","Protocol_name",
                   "Duration",
                  
@@ -52,7 +51,7 @@ class Feature_extraction():
                    "max_duration","min_duration","sum_duration","average_duration","std_duration",
                  
                    "CoAP", "HTTP", "HTTPS", "DNS", "Telnet","SMTP", "SSH", "IRC", "TCP", "UDP", "DHCP","ARP", "ICMP", "IGMP", "IPv", "LLC",
-        "Tot sum", "Min", "Max", "AVG", "Std","Tot size", "IAT", "Number", "MAC", "Magnitue", "Radius", "Covariance", "Variance", "Weight",
+                    "Tot sum", "Min", "Max", "AVG", "Std","Tot size", "IAT", "Number", "MAC", "Magnitue", "Radius", "Covariance", "Variance", "Weight",
                  
                    "DS status", "Fragments", 
                  
@@ -107,6 +106,7 @@ class Feature_extraction():
             ethernet_frame_size = len(eth)
             ethernet_frame_type = eth.type
             total_du = total_du + ts
+            
             # initilization #
             src_port, src_ip, dst_port, duration = 0, 0, 0, 0
             dst_ip, proto_type, protocol_name = 0, 0, ""
@@ -128,6 +128,9 @@ class Feature_extraction():
             magnite, radius, correlation, covaraince, var_ratio, weight = 0, 0, 0, 0, 0, 0
             idle_time, active_time = 0, 0
             type_info, sub_type_info, ds_status, src_mac, dst_mac, sequence, pack_id, fragments, wifi_dur = 0, 0, 0, 0, 0, 0, 0, 0, 0
+            #Initializatoin Ends
+            
+            #Packet evalution Logics
             if eth.type == dpkt.ethernet.ETH_TYPE_IP or eth.type == dpkt.ethernet.ETH_TYPE_ARP:
                 ethsize.append(ethernet_frame_size)
                 srcs = {}
@@ -258,6 +261,9 @@ class Feature_extraction():
                     if type(potential_packet) == dpkt.udp.UDP:
                         src_port = con_basic.get_source_port()
                         dst_port = con_basic.get_destination_port()
+                        src_ip = con_basic.get_source_ip()
+                        dst_ip = con_basic.get_destination_ip()
+                        
                         # L4 features
                         l_four = L4(src_port, dst_port)
                         l_two = L2(src_port, dst_port)
@@ -286,6 +292,9 @@ class Feature_extraction():
                     elif type(potential_packet) == dpkt.tcp.TCP:
                         src_port = con_basic.get_source_port()
                         dst_port = con_basic.get_destination_port()
+                        src_ip = con_basic.get_source_ip()
+                        dst_ip = con_basic.get_destination_ip()
+                        
                         if dst_port in dst_port_packet_count.keys():
                             dst_packet_count[dst_port] = dst_port_packet_count[dst_port] + 1
                         else:
@@ -390,7 +399,9 @@ class Feature_extraction():
                            "Duration": duration, 
                            'Protocol Type': proto_type, 
                            "flow_duration": flow_duration, 
-                          "Header_Length": flow_byte, 
+                          "Header_Length": flow_byte,
+                          "src_ip":src_ip,
+                          "dst_ip":dst_ip,  
                           "src_ip_bytes": src_byte_count, 
                           "fin_flag_number": flag_valus[0],
                           "syn_flag_number":flag_valus[1],
@@ -465,14 +476,16 @@ class Feature_extraction():
         df_summary_list = []
         while last_row<len(processed_df):
             sliced_df = processed_df[last_row:last_row+n_rows]
-            sliced_df = sliced_df.drop("Protocol_name",axis=1) #drop TCPTCPTCP error
-            sliced_df = pd.DataFrame(sliced_df.mean()).T# mean
+            #sliced_df = sliced_df.drop("Protocol_name",axis=1) #drop TCPTCPTCP error
+            #sliced_df = sliced_df.drop("src_ip",axis=1)
+            #sliced_df = sliced_df.drop("dst_ip",axis=1)
+            #sliced_df = pd.DataFrame(sliced_df.mean()).T# mean
             df_summary_list.append(sliced_df)
             last_row += n_rows
         processed_df = pd.concat(df_summary_list).reset_index(drop=True)
         processed_df.to_csv(csv_file_name+".csv", index=False)
-        print(f"processed sub pcap to csv: {csv_file_name+'.csv'}")
-        logger.info(f"processed sub pcap to csv: {csv_file_name+'.csv'}")
+        #print(f"processed sub pcap to csv: {csv_file_name+'.csv'}")
+        #logger.info(f"processed sub pcap to csv: {csv_file_name+'.csv'}")
         return True
 
 

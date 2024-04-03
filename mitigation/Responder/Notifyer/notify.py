@@ -9,9 +9,11 @@ class notify:
     
     def __init__(self, logger, connection_config) -> None:
         self.logger = logger
-        self.smtp_config = connection_config["default_smtp"]
-        self.scp_config = connection_config["default_scp"]
-        self.http_config = connection_config["default_http"]
+        
+        #Unused default settings
+        self.__smtp_config = connection_config["default_smtp"]
+        self.__scp_config = connection_config["default_scp"]
+        self.__http_config = connection_config["default_http"]
         
     def construct_email(self, msg, from_email, to_email):
         email = MIMEMultipart()
@@ -22,22 +24,34 @@ class notify:
         email.attach(MIMEText(msg, 'html'))
         return email
         
-    def http_notify(self, config, msg):        
+    def http_notify(self, config, method, msg):        
         try:
             for url in config["url"]:
                 conenction = http.client.HTTPConnection(url)
                 self.logger.info(f"HTTP GET request to {url}")
                 
-                try:
-                    conenction.request("GET","/", body=msg)
-                    response = conenction.getresponse()
-                    if 200 == response.getcode():
-                        self.logger.info("Connection Success")
-                    else:
-                        self.logger.info("Connection Failed")
-                        self.logger.info(f"Response, \n{response.info()}")
-                except:
-                    self.logger.error("HTTP Connection Failed", exc_info=True)
+                if method == "GET":
+                    try:
+                        conenction.request("GET","/", body=msg)
+                        response = conenction.getresponse()
+                        if 200 == response.getcode():
+                            self.logger.info("Connection Success")
+                        else:
+                            self.logger.info("Connection Failed")
+                            self.logger.info(f"Response, \n{response.info()}")
+                    except:
+                        self.logger.error("HTTP Connection Failed", exc_info=True)
+                elif method == "POST":
+                    try:
+                        conenction.request("POST", "/", body=msg)
+                        response = conenction.getresponse()
+                        if 200 == response.getcode():
+                            self.logger.info("Connection Success")
+                        else:
+                            self.logger.info("Connection Failed")
+                            self.logger.info(f"Response, \n{response.info()}")
+                    except:
+                        self.logger.error("HTTP Connection Failed", exc_info=True)
         except:
             self.logger.error(f"Invaild URL! {url}", exc_info=True)
         return True
@@ -87,7 +101,10 @@ class notify:
                 scp.close()
         except:
             self.logger.error("SCP Connection Failed.", exc_info=True)
-        
+
+
+
+#Functional Testing 
 if __name__ == "__main__":
     import logging 
     import yaml 

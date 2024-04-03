@@ -1,3 +1,6 @@
 *.pyc
 *.pcap
 *.csv
+data
+*.yaml
+__pycache

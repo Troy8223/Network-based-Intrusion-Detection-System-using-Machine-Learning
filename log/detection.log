@@ -120,3 +120,164 @@
 2024-03-26 18:37:34 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
 2024-03-26 18:37:34 | detection | INFO | Starting Detection
 2024-03-26 18:37:34 | detection | INFO | No file to process at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 10:57:17 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 10:57:38 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 11:00:59 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 11:01:31 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 11:01:31 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 11:01:31 | detection | INFO | Starting Detection
+2024-03-29 11:01:31 | detection | INFO | No file to process at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 11:28:02 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 11:28:02 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 11:28:02 | detection | INFO | Starting Detection
+2024-03-29 11:28:02 | detection | INFO | No file to process at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 11:28:29 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 11:28:32 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 11:28:32 | detection | INFO | Starting Detection
+2024-03-29 11:28:32 | detection | INFO | No file to process at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 11:49:47 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 11:51:02 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 11:51:11 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 11:51:11 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 11:51:11 | detection | INFO | Starting Detection
+2024-03-29 11:51:11 | detection | INFO | No file to process at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 11:52:29 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 11:52:29 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 11:52:29 | detection | INFO | Starting Detection
+2024-03-29 11:52:29 | detection | INFO | No file to process at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 11:56:27 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 11:57:10 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 11:57:22 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 11:57:25 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 11:57:25 | detection | INFO | Starting Detection
+2024-03-29 11:57:25 | detection | INFO | No file to process at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 12:05:28 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 12:06:09 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 12:06:19 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 14:02:37 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 14:02:40 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 14:02:40 | detection | INFO | Starting Detection
+2024-03-29 14:02:40 | detection | INFO | No file to process at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 14:03:40 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 14:03:40 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 14:03:40 | detection | INFO | Starting Detection
+2024-03-29 14:03:40 | detection | INFO | No file to process at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 14:05:50 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 14:05:50 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 14:05:50 | detection | INFO | Starting Detection
+2024-03-29 14:05:50 | detection | INFO | No file to process at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 14:12:20 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 14:12:22 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 14:12:22 | detection | INFO | Starting Detection
+2024-03-29 14:12:22 | detection | INFO | No file to process at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 14:14:15 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 14:14:20 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 14:14:20 | detection | INFO | Starting Detection
+2024-03-29 14:14:20 | detection | INFO | No file to process at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 14:15:33 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 14:15:37 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 14:15:37 | detection | INFO | Starting Detection
+2024-03-29 14:15:37 | detection | INFO | No file to process at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 14:18:17 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 14:18:20 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 14:18:20 | detection | INFO | Starting Detection
+2024-03-29 14:18:20 | detection | INFO | No file to process at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 14:18:55 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 14:18:57 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 14:18:57 | detection | INFO | Starting Detection
+2024-03-29 14:18:57 | detection | INFO | No file to process at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 14:19:16 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 14:19:21 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 14:19:21 | detection | INFO | Starting Detection
+2024-03-29 14:19:21 | detection | INFO | Processing file IoT-Test_20240328133918.csv
+2024-03-29 14:19:21 | detection | INFO | Saved any suspicious traffic as suspicious_IoT-Test_20240328133918.csv
+2024-03-29 14:22:34 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 14:22:39 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 14:22:39 | detection | INFO | Starting Detection
+2024-03-29 14:22:39 | detection | INFO | Processing file IoT-Test_20240328133918.csv
+2024-03-29 14:22:39 | detection | INFO | Saved any suspicious traffic as suspicious_IoT-Test_20240328133918.csv
+2024-03-29 16:57:59 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-29 16:58:04 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-29 16:58:04 | detection | INFO | Starting Detection
+2024-03-29 16:58:04 | detection | INFO | Processing file IoT-Test_20240328133918.csv
+2024-03-29 16:58:04 | detection | INFO | Saved any suspicious traffic as suspicious_IoT-Test_20240328133918.csv
+2024-03-30 16:23:58 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-30 16:24:00 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-30 16:24:00 | detection | INFO | Starting Detection
+2024-03-30 16:24:00 | detection | INFO | Processing file IoT-Test_20240328133918.csv
+2024-03-30 16:24:01 | detection | INFO | Saved any suspicious traffic as suspicious_IoT-Test_20240328133918.csv
+2024-03-30 16:24:20 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-30 16:24:25 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-30 16:24:25 | detection | INFO | Starting Detection
+2024-03-30 16:24:25 | detection | INFO | Processing file IoT-Test_20240328133918.csv
+2024-03-30 16:24:25 | detection | INFO | Saved any suspicious traffic as suspicious_IoT-Test_20240328133918.csv
+2024-03-30 16:28:33 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-30 16:28:39 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-30 16:28:39 | detection | INFO | Starting Detection
+2024-03-30 16:28:39 | detection | INFO | Processing file IoT-Test_20240328133918.csv
+2024-03-30 16:28:39 | detection | INFO | Saved any suspicious traffic as suspicious_IoT-Test_20240328133918.csv
+2024-03-30 16:30:59 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-30 16:31:04 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-30 16:31:04 | detection | INFO | Starting Detection
+2024-03-30 16:31:04 | detection | INFO | Processing file IoT-Test_20240328133918.csv
+2024-03-30 16:31:04 | detection | INFO | Saved any suspicious traffic as suspicious_IoT-Test_20240328133918.csv
+2024-03-30 16:33:37 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-30 16:33:42 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-30 16:33:42 | detection | INFO | Starting Detection
+2024-03-30 16:33:42 | detection | INFO | Processing file IoT-Test_20240328133918.csv
+2024-03-30 16:33:42 | detection | INFO | Saved any suspicious traffic as suspicious_IoT-Test_20240328133918.csv
+2024-03-30 16:34:10 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-30 16:34:15 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-30 16:34:15 | detection | INFO | Starting Detection
+2024-03-30 16:34:15 | detection | INFO | Processing file IoT-Test_20240328133918.csv
+2024-03-30 16:34:15 | detection | INFO | Saved any suspicious traffic as suspicious_IoT-Test_20240328133918.csv
+2024-03-30 16:34:59 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-30 16:35:03 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-30 16:35:03 | detection | INFO | Starting Detection
+2024-03-30 16:35:03 | detection | INFO | Processing file IoT-Test_20240328133918.csv
+2024-03-30 16:35:03 | detection | INFO | Saved any suspicious traffic as suspicious_IoT-Test_20240328133918.csv
+2024-03-30 16:43:24 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-30 16:43:29 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-30 16:43:29 | detection | INFO | Starting Detection
+2024-03-30 16:43:29 | detection | INFO | Processing file IoT-Test_20240328133918.csv
+2024-03-30 16:43:29 | detection | INFO | Saved any suspicious traffic as suspicious_IoT-Test_20240328133918.csv
+2024-03-30 16:53:08 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-30 16:53:13 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-30 16:53:13 | detection | INFO | Starting Detection
+2024-03-30 16:53:13 | detection | INFO | Processing file IoT-Test_20240328133918.csv
+2024-03-30 16:53:13 | detection | INFO | Saved any suspicious traffic as suspicious_IoT-Test_20240328133918.csv
+2024-03-30 16:57:24 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-30 16:57:29 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-30 16:57:29 | detection | INFO | Starting Detection
+2024-03-30 16:57:29 | detection | INFO | Processing file IoT-Test_20240328133918.csv
+2024-03-30 16:57:29 | detection | INFO | Saved any suspicious traffic as suspicious_IoT-Test_20240328133918.csv
+2024-03-30 17:51:14 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-30 17:51:19 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-30 17:51:19 | detection | INFO | Starting Detection
+2024-03-30 17:51:19 | detection | INFO | Processing file IoT-Test_20240328133918.csv
+2024-03-30 17:51:19 | detection | INFO | Saved any suspicious traffic as suspicious_IoT-Test_20240328133918.csv
+2024-03-31 11:54:19 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-31 11:54:24 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-31 11:54:24 | detection | INFO | Starting Detection
+2024-03-31 11:54:24 | detection | INFO | Processing file IoT-Test_20240328133918.csv
+2024-03-31 11:54:38 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-31 11:54:43 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-31 11:54:43 | detection | INFO | Starting Detection
+2024-03-31 11:54:43 | detection | INFO | Processing file IoT-Test_20240328133918.csv
+2024-03-31 11:54:59 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-03-31 11:55:04 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-03-31 11:55:04 | detection | INFO | Starting Detection
+2024-03-31 11:55:04 | detection | INFO | Processing file IoT-Test_20240328133918.csv
+2024-03-31 11:55:04 | detection | INFO | Saved any suspicious traffic as suspicious_IoT-Test_20240328133918.csv
+2024-04-03 14:39:33 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-04-03 14:39:46 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-04-03 14:39:46 | detection | INFO | Starting Detection
+2024-04-03 14:39:46 | detection | INFO | Processing file IoT-Test_20240328133918.csv
+2024-04-03 14:39:46 | detection | INFO | Saved any suspicious traffic as suspicious_IoT-Test_20240328133918.csv
+2024-04-03 18:09:45 | detection | INFO | Starting Data Cleaning at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/raw_pcap/
+2024-04-03 18:11:09 | detection | INFO | Raw pcap cleaned. Saved at C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/data/pre-processed_csv_files/
+2024-04-03 18:11:09 | detection | INFO | Starting Detection
+2024-04-03 18:11:09 | detection | INFO | Processing file IoT-device_20240403173037.csv
+2024-04-03 18:11:40 | detection | INFO | Saved any suspicious traffic as suspicious_IoT-device_20240403173037.csv
+2024-04-03 18:11:40 | detection | INFO | Processing file IoT-Test_20240328133918.csv
+2024-04-03 18:11:40 | detection | INFO | Saved any suspicious traffic as suspicious_IoT-Test_20240328133918.csv

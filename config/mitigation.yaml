@@ -1,6 +1,8 @@
 mitigator_log_file: "log/mitigator.log"
 email_template: "smtp_template.txt"
 
+ip_block_threshold: 200
+
 connection_setting:
   default_smtp:
     smtp_server: "smtp.gmail.com"
@@ -18,47 +20,9 @@ connection_setting:
 
   default_http:
     url:
-      - "127.0.0.1:8888"
+      - "127.0.0.1:8080"
 
-
-devices_setting:
-  device-a:
-    ip_address: "192.168.224.128"
-    username: "kali"
-    password: "kali"
-
-    http:
-      url:
-        - "127.0.0.1:8888"
-    smtp: 
-      client_email_address:
-        - "ccting6-c@my.cityu.edu.hk"
-    scp:
-      target_1:
-         ip: "192.168.224.128"
-         username: "kali"
-         password: "kali"
-      target_2:
-         ip: "192.168.224.128"
-         username: "kali"
-         password: "kali"
-  device-b:
-    ip_address: "192.168.224.128"
-    username: "kali"
-    password: "kali"
-
-    http:
-      url:
-        - "127.0.0.1:8888"
-    smtp:
-      client_email_address:
-        - "ccting6-c@my.cityu.edu.hk"
-    scp:
-      target_1:
-         ip: "192.168.224.128"
-         username: "kali"
-         password: "kali"
-      target_2:
-         ip: "192.168.224.128"
-         username: "kali"
-         password: "kali"
+devices_profile_path:
+  device-a: "device_profile/device-a.yaml"
+  device-b: "device_profile/device-b.yaml"
+  IoT-Test: "device_profile/IoT-Test.yaml"

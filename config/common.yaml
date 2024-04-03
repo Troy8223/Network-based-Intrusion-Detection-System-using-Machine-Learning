@@ -1,5 +1,5 @@
 working-directory: "C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/"
-model: "C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/detection/Models/LogisticRegression_model_8_CICIoT.joblib"
+model: "C:/Users/User/Documents/GitHub/Network-based-Intrusion-Detection-System-using-Machine-Learning/detection/Models/RandomForest_model_8_CICIoT.joblib"
 abnormal_traffics_csv: "data/abnormal_traffics_csv/"
 pre-processed_csv_files: "data/pre-processed_csv_files/"
 raw_pcap: "data/raw_pcap/"

@@ -45,7 +45,7 @@ if __name__ == "__main__":
     #AI Model related
     scaler = StandardScaler()
     X_columns = [
-    'flow_duration', 'Header_Length', 'Protocol Type', 'Duration',
+    'flow_duration', 'Header_Length', 'Protocol Type', 'Duration', 
        'Rate', 'Srate', 'Drate', 'fin_flag_number', 'syn_flag_number',
        'rst_flag_number', 'psh_flag_number', 'ack_flag_number',
        'ece_flag_number', 'cwr_flag_number', 'ack_count',
@@ -62,6 +62,7 @@ if __name__ == "__main__":
     cleaner  = Data_cleaning(working_directory, cleaner_logger)
     logger.info(f"Starting Data Cleaning at {raw_pcap_directory}")
     cleaner.clean()
+    #cleaner.clean_optimized()
     logger.info(f"Raw pcap cleaned. Saved at {csv_directory}")
     #call clean_data module to output desired csv
 

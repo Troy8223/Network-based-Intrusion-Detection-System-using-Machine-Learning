@@ -22,7 +22,7 @@ def construct_html_table(table_data):
 
 
 
-
+#def main():
 if __name__ == "__main__":
 #Variable Declaration zone
     
@@ -36,7 +36,7 @@ if __name__ == "__main__":
     csv_directory = working_directory + common_yaml["pre-processed_csv_files"]
     adnormal_traffics_csv = working_directory + common_yaml["abnormal_traffics_csv"]
     mitigator_log_file = working_directory + mitigator_yaml["mitigator_log_file"]
-    devices_setting = mitigator_yaml["devices_setting"]
+    devices_setting = mitigator_yaml["devices_profile_path"]
     notify_connection_setting = mitigator_yaml["connection_setting"]
     template_path = working_directory + common_yaml["template"]
     
@@ -79,6 +79,7 @@ if __name__ == "__main__":
             
             #Detected result simple summary
             detection_result = data["Result"]
+            source_ip = data["src_ip"]
             simple_summary = detection_result.value_counts().to_dict()
             category = simple_summary.keys()
             summary_msg = ""
@@ -103,14 +104,16 @@ if __name__ == "__main__":
             if device_name in devices_setting.keys():
                 logger.info(f"Start notifying admins for {device_name}")
                 notifyer = notify(notify_logger, notify_connection_setting)
-                notify_profile = devices_setting[device_name]
-                notify_methods = notify_profile.keys()
+                with open(working_directory + devices_setting[device_name]) as file:
+                    notify_profile = yaml.load(file, Loader= yaml.FullLoader)
+                notify_methods = notify_profile[device_name].keys()
+                notify_profile = notify_profile[device_name]
                 
                 for method in notify_methods:
                     try:
                         match method:
                             case "http":
-                                notifyer.http_notify(notify_profile[method], send_msg)
+                                notifyer.http_notify(notify_profile[method], "GET", send_msg)
                                 pass
                             case "smtp":
                                 notifyer.smtp_notify(notify_profile[method], send_msg)
@@ -119,19 +122,22 @@ if __name__ == "__main__":
                                 notifyer.scp_notify(notify_profile[method], adnormal_traffics_csv + file)
                                 pass
                     except:
-                        logger.error(f"{method.upper} Notify Failed for {device_name}", exc_info=True)
+                        logger.error(f"{method} Notify Failed for {device_name}", exc_info=True)
             else:
                 logger.error(f"No notify setting found for {device_name} ")
                 continue
             
             #Mitigate
+            block_ip_threshold = mitigator_yaml["ip_block_threshold"]
+            
             for attack_type, cnt in simple_summary.items():
-                if attack_type == "DDoS" or attack_type == "DoS": 
-                    logger.info(f"Mitigating {attack_type} attack.") 
-                    mitigator = mitigate(threat_handler_logger)
+                if attack_type == "DDoS" or attack_type == "DoS":
+                    if cnt > block_ip_threshold:
+                        logger.info(f"Detected {cnt} {attack_type} attack. Exceeded threshold {block_ip_threshold}.")  
+                        logger.info(f"Mitigating {attack_type} attack.") 
+                        mitigator = mitigate(threat_handler_logger)
                     try:
-                        mitigator.block_ip(devices_setting[device_name], [])
-                        
+                        mitigator.block_ip(notify_profile, source_ip)
                     except:
                         logger.error(f"Mitigation failed for {attack_type} attack.", exc_info=True)
             
